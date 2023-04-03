@@ -18,7 +18,7 @@ print(response_2.status_code)
 Делает запрос с правильным значением method. Описать что будет выводиться в этом случае.
 """
 payload = {"method": "GET"}
-response_3 = requests.delete("https://playground.learnqa.ru/ajax/api/compare_query_type", params=payload)
+response_3 = requests.get("https://playground.learnqa.ru/ajax/api/compare_query_type", params=payload)
 print(response_3.text)
 print(response_3.status_code)
 
