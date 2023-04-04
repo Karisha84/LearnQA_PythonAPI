@@ -39,6 +39,6 @@ for methods in methods:
         else:
             response = requests.request(method=methods, url="https://playground.learnqa.ru/ajax/api/compare_query_type",
                                         data=param)
-        if response.text == 'Wrong method provided' and response.status_code == 200:
+        if response.text == '{"success":"!"}' and response.status_code == 200:
             print(f"method {methods} with parameter params={param} has following result {response.text}"
                   f" with status code {response.status_code}")
