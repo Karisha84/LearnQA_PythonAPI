@@ -11,7 +11,7 @@ class TestUserRegister(BaseCase):
             {'password': '123', 'firstName': 'learnqa', 'lastName': 'learnqa', 'email': 'vinkotovexample.com'},
             {'password': '123', 'username': 'learnqa', 'lastName': 'learnqa', 'email': 'vinkotovexample.com'},
             {'password': '123', 'username': 'learnqa', 'firstName': 'learnqa', 'email': 'vinkotovexample.com'},
-            {'password': '123', 'username': 'learnqa', 'firstName': 'learnqa', 'lastName': 'learnqa',}
+            {'password': '123', 'username': 'learnqa', 'firstName': 'learnqa', 'lastName': 'learnqa'}
             )
 
     def setup(self):
