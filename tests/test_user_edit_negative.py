@@ -153,4 +153,5 @@ class TestUserEditNegative(BaseCase):
                                  cookies={"auth_sid": auth_sid},
                                  data={"firstName":  new_first_name}
                                  )
+        Assertions.assert_code_status(response3, 400)
 
